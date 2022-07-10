@@ -32,6 +32,7 @@
 	"Star" :
 	{
 		"size" : 1750,
+		"lightRadius": 20000,
 		"tint" : 
 		{
 			"r" : 227,
