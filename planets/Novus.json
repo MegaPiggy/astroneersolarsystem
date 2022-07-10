@@ -10,7 +10,7 @@
     },
 	"Orbit" : 
     {
-        "semiMajorAxis" : 1700,
+        "semiMajorAxis" : 1300,
         "inclination" : 0,
         "primaryBody" : "Vesania",
         "isMoon" : true,

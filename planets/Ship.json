@@ -11,7 +11,7 @@
     },
 	"Orbit" : 
     {
-        "semiMajorAxis" : 1100,
+        "semiMajorAxis" : 500,
         "inclination" : 0,
         "primaryBody" : "Sylva",
         "isMoon" : false,
