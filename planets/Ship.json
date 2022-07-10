@@ -4,9 +4,9 @@
     "starSystem" : "Socialist.AstroneerSystem",
     "Base" : 
     {
-        "surfaceSize" : 256,
+        "surfaceSize" : 20,
         "showMinimap": false,
-        "zeroGravityRadius": 30,
+        "zeroGravityRadius": 35,
         "hasMapMarker" : true
     },
 	"Orbit" : 
@@ -28,7 +28,12 @@
             {
                 "assetBundle" : "planets/astroneer",
                 "path" : "Assets/AstroneerAssetBundles/AstroneerShuttle.prefab",
-                "scale" : 200
+                "scale" : 200,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -15
+                }
             }
         ]
     },
@@ -36,7 +41,7 @@
 	{
 		"signals" : 
 		[
-			{ "frequency" : "Radio", "name": "Shuttle", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 5, "identificationRadius" : 10}		
+			{ "frequency" : "Radio", "name": "Shuttle", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 20, "identificationRadius" : 35}		
         ]
 	}
 }
