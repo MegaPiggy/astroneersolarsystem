@@ -45,6 +45,8 @@
 	"Atmosphere" :
 	{
 		"size" : 175,
+		"useAtmosphereShader": true,
+		"atmosphereTint" : {"r" : 184, "g" : 84, "b" : 255, "a" : 255},
 		"fogSize" : 175,
 		"fogTint" : {"r" : 184, "g" : 84, "b" : 255, "a" : 255},
 		"fogDensity" : 0.4
