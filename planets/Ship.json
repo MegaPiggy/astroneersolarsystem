@@ -5,8 +5,7 @@
     "Base" : 
     {
         "surfaceSize" : 256,
-        "hasMapMarker" : true,
-        "hasReferenceFrame" : true
+        "hasMapMarker" : true
     },
 	"Orbit" : 
     {

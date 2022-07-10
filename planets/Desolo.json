@@ -6,8 +6,7 @@
     {
         "surfaceSize" : 125,
         "surfaceGravity" : 9,
-        "hasMapMarker" : true,
-        "hasReferenceFrame" : true
+        "hasMapMarker" : true
     },
 	"Orbit" : 
     {

@@ -7,7 +7,6 @@
         "surfaceSize" : 1750,
         "surfaceGravity" : 28,
         "hasMapMarker" : true,
-        "hasReferenceFrame" : true,
 		"centerOfSolarSystem" : true
     },
 	"Props" : 
@@ -39,13 +38,6 @@
 			"g" : 255,
 			"b" : 250,
 			"a" : 255
-		},
-		"solarFlareTint" : 
-		{
-			"r" : 227,
-			"g" : 255,
-			"b" : 250,
-			"a" : 0
 		}
 	}
 }
