@@ -25,7 +25,7 @@
 		"signals" : 
 		[
 			{ 
-                "frequency" : "Default", 
+                "frequency" : "WarpCore", 
                 "name": "Sylva Gateway Engine", 
                 "audioClip" : "OW_NM_WhiteHoleAmbienceL", 
                 "sourceRadius" : 100, 

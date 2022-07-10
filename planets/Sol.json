@@ -26,7 +26,7 @@
 	{
 		"signals" : 
 		[
-			{ "frequency" : "Default", "name" : "Gateway Portal", "audioClip" : "OW_NM_WhiteHoleAmbienceL", "sourceRadius" : 10, "identificationRadius" : 50, "position" : {"x" : 0, "y" : 0, "z" : -3250}}		
+			{ "frequency" : "WarpCore", "name" : "Gateway Portal", "audioClip" : "OW_NM_WhiteHoleAmbienceL", "sourceRadius" : 10, "identificationRadius" : 50, "position" : {"x" : 0, "y" : 0, "z" : -3250}}		
         ]
 	},
 	"Star" :

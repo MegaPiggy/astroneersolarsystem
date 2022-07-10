@@ -24,7 +24,7 @@
 	{
 		"signals" : 
 		[
-			{ "frequency" : "Default", "name": "Calidor Gateway Engine", "audioClip" : "OW_NM_WhiteHoleAmbienceL", "sourceRadius" : 100, "identificationRadius" : 340, "position" : {"x" : 0, "y" : 0, "z" : 0}}		
+			{ "frequency" : "WarpCore", "name": "Calidor Gateway Engine", "audioClip" : "OW_NM_WhiteHoleAmbienceL", "sourceRadius" : 100, "identificationRadius" : 340, "position" : {"x" : 0, "y" : 0, "z" : 0}}		
         ]
 	},
 	"HeightMap" :
