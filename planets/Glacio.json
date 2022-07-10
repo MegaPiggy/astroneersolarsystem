@@ -11,7 +11,7 @@
 	"Orbit" : 
     {
         "semiMajorAxis" : 16500,
-        "inclination" : 0,
+        "inclination" : 180,
         "primaryBody" : "Sol",
         "isMoon" : false,
         "isTidallyLocked" : false,
