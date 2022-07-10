@@ -23,19 +23,19 @@
     },
     "Signal" : 
 	{
-		"Signals" : 
+		"signals" : 
 		[
 			{ 
-                "Frequency" : "Default", 
-                "Name" : "Glacio Gateway Engine", 
+                "frequency" : "Default", 
+                "name": "Glacio Gateway Engine", 
                 "audioClip" : "OW_NM_WhiteHoleAmbienceL", 
-                "SourceRadius" : 100, 
+                "sourceRadius" : 100, 
                 "identificationRadius" : 270, 
                 "position" : {"x" : 0, "y" : 0, "z" : 0}
             }		
         ]
 	},
-	"Heightmap" :
+	"HeightMap" :
 	{
 		"heightMap" : "planets/Assets/Glacio-Height.png",
 		"textureMap" : "planets/Assets/Glacio-Tex.png",

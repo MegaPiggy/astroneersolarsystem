@@ -23,19 +23,19 @@
     },
     "Signal" : 
 	{
-		"Signals" : 
+		"signals" : 
 		[
 			{ 
-                "Frequency" : "Default", 
-                "Name" : "Desolo Gateway Engine", 
+                "frequency" : "Default", 
+                "name": "Desolo Gateway Engine", 
                 "audioClip" : "OW_NM_WhiteHoleAmbienceL", 
-                "SourceRadius" : 80, 
+                "sourceRadius" : 80, 
                 "identificationRadius" : 140, 
                 "position" : {"x" : 0, "y" : 0, "z" : 0}
             }		
         ]
 	},
-	"Heightmap" :
+	"HeightMap" :
 	{
 		"heightMap" : "planets/Assets/Desolo-Height.png",
 		"textureMap" : "planets/Assets/Desolo-Height.png",

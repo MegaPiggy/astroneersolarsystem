@@ -23,13 +23,13 @@
     },
     "Signal" : 
 	{
-		"Signals" : 
+		"signals" : 
 		[
 			{ 
-                "Frequency" : "Default", 
-                "Name" : "Sylva Gateway Engine", 
+                "frequency" : "Default", 
+                "name": "Sylva Gateway Engine", 
                 "audioClip" : "OW_NM_WhiteHoleAmbienceL", 
-                "SourceRadius" : 100, 
+                "sourceRadius" : 100, 
                 "identificationRadius" : 265, 
                 "position" : {"x" : 0, "y" : 0, "z" : 0}
             }		
@@ -41,7 +41,7 @@
         "shipSpawnPoint" : {"x" : 5, "y" : 256, "z" : 0},
         "startWithSuit" : true
     },
-	"Heightmap" :
+	"HeightMap" :
 	{
 		"heightMap" : "planets/Assets/Sylva-Height.png",
 		"textureMap" : "planets/Assets/Sylva-Tex.png",

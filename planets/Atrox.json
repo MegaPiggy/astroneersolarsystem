@@ -23,12 +23,12 @@
     },
     "Signal" : 
 	{
-		"Signals" : 
+		"signals" : 
 		[
-			{ "Frequency" : "Default", "Name" : "Atrox Gateway Engine", "audioClip" : "OW_NM_WhiteHoleAmbienceL", "SourceRadius" : 100, "identificationRadius" : 270, "position" : {"x" : 0, "y" : 0, "z" : 0}}		
+			{ "frequency" : "Default", "name": "Atrox Gateway Engine", "audioClip" : "OW_NM_WhiteHoleAmbienceL", "sourceRadius" : 100, "identificationRadius" : 270, "position" : {"x" : 0, "y" : 0, "z" : 0}}		
         ]
 	},
-	"Heightmap" :
+	"HeightMap" :
 	{
 		"heightMap" : "planets/Assets/Atrox-Height.png",
 		"textureMap" : "planets/Assets/Atrox-Tex.png",

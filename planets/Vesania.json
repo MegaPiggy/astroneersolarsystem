@@ -23,19 +23,19 @@
     },
     "Signal" : 
 	{
-		"Signals" : 
+		"signals" : 
 		[
 			{ 
-                "Frequency" : "Default", 
-                "Name" : "Vesania Gateway Engine", 
+                "frequency" : "Default", 
+                "name": "Vesania Gateway Engine", 
                 "audioClip" : "OW_NM_WhiteHoleAmbienceL", 
-                "SourceRadius" : 100, 
+                "sourceRadius" : 100, 
                 "identificationRadius" : 260, 
                 "position" : {"x" : 0, "y" : 0, "z" : 0}
             }		
         ]
 	},
-	"Heightmap" :
+	"HeightMap" :
 	{
 		"heightMap" : "planets/Assets/Vesania-Height.png",
 		"textureMap" : "planets/Assets/Vesania-Tex.png",
