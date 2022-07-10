@@ -5,6 +5,7 @@
     "Base" : 
     {
         "surfaceSize" : 256,
+        "showMinimap": false,
         "hasMapMarker" : true
     },
 	"Orbit" : 
