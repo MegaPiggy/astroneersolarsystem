@@ -15,6 +15,7 @@
         "primaryBody" : "Sylva",
         "isMoon" : true,
         "isTidallyLocked" : false,
+        "siderealPeriod": 1.9167,
         "longitudeOfAscendingNode" : 0,
         "eccentricity" : 0,
 		"trueAnomaly" : 15,

@@ -15,6 +15,7 @@
         "primaryBody" : "Sol",
         "isMoon" : false,
         "isTidallyLocked" : false,
+        "siderealPeriod": 13.5,
         "longitudeOfAscendingNode" : 0,
         "eccentricity" : 0,
 		"trueAnomaly" : 50,

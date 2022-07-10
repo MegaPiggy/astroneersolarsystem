@@ -15,6 +15,7 @@
         "primaryBody" : "Vesania",
         "isMoon" : true,
         "isTidallyLocked" : false,
+        "siderealPeriod": 3.5,
         "longitudeOfAscendingNode" : 0,
         "eccentricity" : 0,
 		"trueAnomaly" : 67,
