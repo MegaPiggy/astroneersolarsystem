@@ -43,5 +43,9 @@
 		[
 			{ "frequency" : "Radio", "name": "Shuttle", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 20, "identificationRadius" : 35}		
         ]
-	}
+	},
+    "ReferenceFrame": {
+        "targetWhenClose": true,
+        "bracketRadius": 20
+    }
 }
