@@ -6,6 +6,7 @@
     {
         "surfaceSize" : 256,
         "showMinimap": false,
+        "zeroGravityRadius": 30,
         "hasMapMarker" : true
     },
 	"Orbit" : 
