@@ -14,8 +14,13 @@
         "semiMajorAxis" : 500,
         "inclination" : 0,
         "primaryBody" : "Sylva",
-        "isMoon" : false,
-        "isTidallyLocked" : false,
+        "isMoon" : true,
+        "isTidallyLocked" : true,
+        "alignmentAxis": {
+            "x": -1,
+            "y": 0,
+            "z": 0
+        },
         "longitudeOfAscendingNode" : 0,
         "eccentricity" : 0,
 		"trueAnomaly" : 346,
@@ -33,6 +38,11 @@
                     "x": 0,
                     "y": 0,
                     "z": -15
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 180
                 }
             }
         ]
