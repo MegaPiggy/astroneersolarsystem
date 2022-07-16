@@ -6,7 +6,8 @@
     {
         "surfaceSize" : 140,
         "surfaceGravity" : 10.5,
-        "hasMapMarker" : true
+        "hasMapMarker" : true,
+        "ambientLight": 0.5
     },
 	"Orbit" : 
     {
