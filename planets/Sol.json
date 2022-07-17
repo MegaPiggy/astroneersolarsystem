@@ -33,13 +33,21 @@
 	"Star" :
 	{
 		"size" : 1750,
-		"lightRadius": 20000,
 		"tint" : 
 		{
 			"r" : 227,
 			"g" : 255,
 			"b" : 250,
 			"a" : 255
-		}
+		},
+		"lightRadius": 20000,
+		"lightTint": 
+		{
+			"r" : 227,
+			"g" : 255,
+			"b" : 250,
+			"a" : 255
+		},
+		"goSupernova": false
 	}
 }
