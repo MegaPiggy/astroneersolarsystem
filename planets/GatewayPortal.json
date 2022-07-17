@@ -1,0 +1,49 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name" : "Gateway Portal",
+    "starSystem" : "Socialist.AstroneerSystem",
+	"Base": {
+		"surfaceGravity": 0,
+		"surfaceSize": 105,
+		"showMinimap": false,
+		"invulnerableToSun": true,
+		"hasMapMarker": false
+	},
+	"Orbit": {
+		"isStatic": true,
+		"primaryBody": "Sol",
+		"semiMajorAxis": 3250,
+		"inclination": 45,
+		"trueAnomaly": 45,
+		"isMoon": true,
+		"isTidallyLocked": true,
+		"showOrbitLine": false,
+		"dottedOrbitLine": true
+	},
+	"ReferenceFrame": {
+		"hideInMap": true,
+		"bracketRadius": 105,
+		"maxTargetDistance": 1000,
+		"targetColliderRadius": 105
+	},
+	"Props" : 
+    {
+        "details" :
+        [
+            {
+				"assetBundle" : "planets/astroneer",
+			 	"path" : "Assets/AstroneerAssetBundles/GatwayPortal.prefab", 
+				"scale" : 10, 
+				"position" : {"x" : 0, "y" : 0, "z" : 0},
+				"rotation" : {"x" : 0, "y" : 0, "z" : 0}
+			}
+        ]
+    },
+    "Signal" : 
+	{
+		"signals" : 
+		[
+			{ "frequency" : "WarpCore", "name" : "Gateway Portal", "audioClip" : "OW_NM_WhiteHoleAmbienceL", "sourceRadius" : 10, "identificationRadius" : 105, "position" : {"x" : 0, "y" : 0, "z" : 0}}		
+        ]
+	}
+}
