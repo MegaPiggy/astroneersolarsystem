@@ -10,5 +10,6 @@
 		"x": 0,
 		"y": 0,
 		"z": 18000
-	}
+	},
+	"travelAudio": "systems/Exploration 8.mp3"
 }
