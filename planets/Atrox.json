@@ -44,5 +44,10 @@
 		"fogSize" : 340,
 		"fogTint" : {"r" : 90, "g" : 128, "b" : 37, "a" : 255},
 		"fogDensity" : 0.7
-	}
+	},
+    "ShipLog": {
+        "mapMode": {
+            "revealedSprite": "planets/Assets/ShipLog/radiated.png"
+        }
+    }
 }

@@ -45,5 +45,10 @@
 		[
 			{ "frequency" : "WarpCore", "name" : "Gateway Portal", "audioClip" : "OW_NM_WhiteHoleAmbienceL", "sourceRadius" : 10, "identificationRadius" : 105, "position" : {"x" : 0, "y" : 0, "z" : 0}}		
         ]
-	}
+	},
+    "ShipLog": {
+        "mapMode": {
+            "revealedSprite": "planets/Assets/ShipLog/gate_station.png"
+        }
+    }
 }

@@ -49,5 +49,10 @@
 		"fogSize" : 150,
 		"fogTint" : {"r" : 189, "g" : 189, "b" : 189, "a" : 255},
 		"fogDensity" : 0.15
-	}
+	},
+    "ShipLog": {
+        "mapMode": {
+            "revealedSprite": "planets/Assets/ShipLog/barren.png"
+        }
+    }
 }

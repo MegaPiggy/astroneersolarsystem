@@ -57,5 +57,10 @@
     "ReferenceFrame": {
         "targetWhenClose": true,
         "bracketRadius": 20
+    },
+    "ShipLog": {
+        "mapMode": {
+            "revealedSprite": "planets/Assets/ShipLog/spaceship.png"
+        }
     }
 }

@@ -51,5 +51,10 @@
 		"fogSize" : 315,
 		"fogTint" : {"r" : 98, "g" : 0, "b" : 255, "a" : 255},
 		"fogDensity" : 0.7
-	}
+	},
+    "ShipLog": {
+        "mapMode": {
+            "revealedSprite": "planets/Assets/ShipLog/exotic.png"
+        }
+    }
 }

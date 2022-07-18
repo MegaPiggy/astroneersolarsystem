@@ -57,5 +57,10 @@
 		"fogSize" : 310,
 		"fogTint" : {"r" : 0, "g" : 183, "b" : 255, "a" : 255},
 		"fogDensity" : 0.6
-	}
+	},
+    "ShipLog": {
+        "mapMode": {
+            "revealedSprite": "planets/Assets/ShipLog/terran.png"
+        }
+    }
 }

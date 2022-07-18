@@ -52,5 +52,10 @@
 		"fogTint" : {"r" : 240, "g" : 240, "b" : 240, "a" : 255},
 		"fogDensity" : 0.45,
         "hasSnow" : true
-	}
+	},
+    "ShipLog": {
+        "mapMode": {
+            "revealedSprite": "planets/Assets/ShipLog/tundra.png"
+        }
+    }
 }
