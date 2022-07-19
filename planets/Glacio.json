@@ -26,14 +26,13 @@
 	{
 		"signals" : 
 		[
-			{ 
-                "frequency" : "WarpCore", 
-                "name": "Glacio Gateway Engine", 
-                "audioClip" : "OW_NM_WhiteHoleAmbienceL", 
-                "sourceRadius" : 100, 
-                "identificationRadius" : 270, 
-                "position" : {"x" : 0, "y" : 0, "z" : 0}
-            }		
+			{
+                "frequency" : "WarpCore",
+                "name": "GATEWAY_ENGINE_GLACIO",
+                "audioFilePath" : "planets/Assets/CoreGlacio.mp3",
+                "sourceRadius" : 100,
+                "identificationRadius" : 280
+            }
         ]
 	},
 	"HeightMap" :
@@ -53,6 +52,23 @@
 		"fogDensity" : 0.45,
         "hasSnow" : true
 	},
+    "Props": {
+        "details": [
+            {
+                "assetBundle" : "planets/astroneer",
+                "path" : "Assets/AstroneerAssetBundles/Import/CloudsTundraSimple.prefab",
+                "scale": 0.22
+            }
+        ],
+        "scatter": [
+            {
+                "assetBundle" : "planets/astroneer",
+                "path": "Assets/AstroneerAssetBundles/Import/ShellGlacio.prefab",
+                "count": 50,
+                "seed": 452246
+            }
+        ]
+    },
     "ShipLog": {
         "mapMode": {
             "revealedSprite": "planets/Assets/ShipLog/tundra.png"

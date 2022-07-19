@@ -26,14 +26,13 @@
 	{
 		"signals" : 
 		[
-			{ 
-                "frequency" : "WarpCore", 
-                "name": "Sylva Gateway Engine", 
-                "audioClip" : "OW_NM_WhiteHoleAmbienceL", 
-                "sourceRadius" : 100, 
-                "identificationRadius" : 265, 
-                "position" : {"x" : 0, "y" : 0, "z" : 0}
-            }		
+			{
+                "frequency" : "WarpCore",
+                "name": "GATEWAY_ENGINE_SYLVA",
+                "audioFilePath" : "planets/Assets/CoreSylva.mp3",
+                "sourceRadius" : 100,
+                "identificationRadius" : 270
+            }
         ]
 	},
     "Spawn" :
@@ -58,6 +57,23 @@
 		"fogTint" : {"r" : 0, "g" : 183, "b" : 255, "a" : 255},
 		"fogDensity" : 0.6
 	},
+    "Props": {
+        "details": [
+            {
+                "assetBundle" : "planets/astroneer",
+                "path" : "Assets/AstroneerAssetBundles/Import/CloudsTerranSimple.prefab",
+                "scale": 0.225
+            }
+        ],
+        "scatter": [
+            {
+                "assetBundle" : "planets/astroneer",
+                "path": "Assets/AstroneerAssetBundles/Import/ShellSylva.prefab",
+                "count": 50,
+                "seed": 79582
+            }
+        ]
+    },
     "ShipLog": {
         "mapMode": {
             "revealedSprite": "planets/Assets/ShipLog/terran.png"

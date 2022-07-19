@@ -26,14 +26,13 @@
 	{
 		"signals" : 
 		[
-			{ 
-                "frequency" : "WarpCore", 
-                "name": "Vesania Gateway Engine", 
-                "audioClip" : "OW_NM_WhiteHoleAmbienceL", 
-                "sourceRadius" : 100, 
-                "identificationRadius" : 260, 
-                "position" : {"x" : 0, "y" : 0, "z" : 0}
-            }		
+			{
+                "frequency" : "WarpCore",
+                "name": "GATEWAY_ENGINE_VESANIA",
+                "audioFilePath" : "planets/Assets/CoreVesania.mp3",
+                "sourceRadius" : 100,
+                "identificationRadius" : 274
+            }
         ]
 	},
 	"HeightMap" :
@@ -52,6 +51,23 @@
 		"fogTint" : {"r" : 98, "g" : 0, "b" : 255, "a" : 255},
 		"fogDensity" : 0.7
 	},
+    "Props": {
+        "details": [
+            {
+                "assetBundle" : "planets/astroneer",
+                "path" : "Assets/AstroneerAssetBundles/Import/CloudsExoticSimple.prefab",
+                "scale": 0.22
+            }
+        ],
+        "scatter": [
+            {
+                "assetBundle" : "planets/astroneer",
+                "path": "Assets/AstroneerAssetBundles/Import/ShellVesania.prefab",
+                "count": 50,
+                "seed": 8372642
+            }
+        ]
+    },
     "ShipLog": {
         "mapMode": {
             "revealedSprite": "planets/Assets/ShipLog/exotic.png"

@@ -1,0 +1,14 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+    "UIDictionary": {
+        "GATEWAY_PORTAL" : "Gateway Portal",
+        "GATEWAY_ENGINE_SYLVA" : "Sylva Gateway Engine",
+        "GATEWAY_ENGINE_DESOLO" : "Desolo Gateway Engine",
+        "GATEWAY_ENGINE_VESANIA" : "Vesania Gateway Engine",
+        "GATEWAY_ENGINE_NOVUS" : "Novus Gateway Engine",
+        "GATEWAY_ENGINE_CALIDOR" : "Calidor Gateway Engine",
+        "GATEWAY_ENGINE_GLACIO" : "Glacio Gateway Engine",
+        "GATEWAY_ENGINE_ATROX" : "Atrox Gateway Engine",
+        "SMALL_SHUTTLE" : "Shuttle"
+    }
+}

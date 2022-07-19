@@ -4,7 +4,8 @@
     "starSystem" : "Socialist.AstroneerSystem",
 	"Base": {
 		"surfaceGravity": 0,
-		"surfaceSize": 105,
+		"surfaceSize": 300,
+		"soiOverride": 300,
 		"showMinimap": false,
 		"invulnerableToSun": true,
 		"hasMapMarker": false
@@ -13,8 +14,8 @@
 		"isStatic": true,
 		"primaryBody": "Sol",
 		"semiMajorAxis": 3250,
-		"inclination": 45,
-		"trueAnomaly": 45,
+		"inclination": 90,
+		"trueAnomaly": 270,
 		"isMoon": true,
 		"isTidallyLocked": true,
 		"showOrbitLine": false,
@@ -22,28 +23,38 @@
 	},
 	"ReferenceFrame": {
 		"hideInMap": true,
-		"bracketRadius": 105,
-		"maxTargetDistance": 1000,
-		"targetColliderRadius": 105
+		"bracketRadius": 300,
+		"targetColliderRadius": 300
 	},
 	"Props" : 
     {
         "details" :
         [
             {
+				"rename": "GateStation",
 				"assetBundle" : "planets/astroneer",
-			 	"path" : "Assets/AstroneerAssetBundles/GatwayPortal.prefab", 
-				"scale" : 10, 
-				"position" : {"x" : 0, "y" : 0, "z" : 0},
-				"rotation" : {"x" : 0, "y" : 0, "z" : 0}
+			 	"path" : "Assets/AstroneerAssetBundles/GateStation.prefab"
 			}
-        ]
+        ],
+		"audioVolumes": [
+			{
+				"track": "music",
+				"audio": "planets/Assets/UnidentifiedSatellite.mp3",
+				"radius": 300
+			}
+		]
     },
     "Signal" : 
 	{
 		"signals" : 
 		[
-			{ "frequency" : "WarpCore", "name" : "Gateway Portal", "audioClip" : "OW_NM_WhiteHoleAmbienceL", "sourceRadius" : 10, "identificationRadius" : 105, "position" : {"x" : 0, "y" : 0, "z" : 0}}		
+			{
+                "frequency" : "WarpCore",
+                "name": "GATEWAY_PORTAL",
+                "audioFilePath" : "planets/Assets/UnidentifiedSatellite.mp3",
+                "sourceRadius" : 10,
+                "identificationRadius" : 300
+            }
         ]
 	},
     "ShipLog": {

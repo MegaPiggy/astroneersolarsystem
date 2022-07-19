@@ -51,7 +51,13 @@
 	{
 		"signals" : 
 		[
-			{ "frequency" : "Radio", "name": "Shuttle", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 20, "identificationRadius" : 35}		
+			{
+                "frequency" : "Radio",
+                "name": "SMALL_SHUTTLE",
+                "audioClip" : "OW_PR_ProbeInAirSound",
+                "sourceRadius" : 20,
+                "identificationRadius" : 35
+            }
         ]
 	},
     "ReferenceFrame": {

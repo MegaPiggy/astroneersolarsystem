@@ -26,7 +26,13 @@
 	{
 		"signals" : 
 		[
-			{ "frequency" : "WarpCore", "name": "Atrox Gateway Engine", "audioClip" : "OW_NM_WhiteHoleAmbienceL", "sourceRadius" : 100, "identificationRadius" : 270, "position" : {"x" : 0, "y" : 0, "z" : 0}}		
+			{
+                "frequency" : "WarpCore",
+                "name": "GATEWAY_ENGINE_ATROX",
+                "audioFilePath" : "planets/Assets/CoreAtrox.mp3",
+                "sourceRadius" : 100,
+                "identificationRadius" : 280
+            }
         ]
 	},
 	"HeightMap" :
@@ -45,6 +51,23 @@
 		"fogTint" : {"r" : 90, "g" : 128, "b" : 37, "a" : 255},
 		"fogDensity" : 0.7
 	},
+    "Props": {
+        "details": [
+            {
+                "assetBundle" : "planets/astroneer",
+                "path" : "Assets/AstroneerAssetBundles/Import/CloudsRadiatedSimple.prefab",
+                "scale": 0.2375
+            }
+        ],
+        "scatter": [
+            {
+                "assetBundle" : "planets/astroneer",
+                "path": "Assets/AstroneerAssetBundles/Import/ShellAtrox.prefab",
+                "count": 50,
+                "seed": 28769
+            }
+        ]
+    },
     "ShipLog": {
         "mapMode": {
             "revealedSprite": "planets/Assets/ShipLog/radiated.png"

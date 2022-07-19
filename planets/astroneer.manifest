@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 153134040
+CRC: 1060044551
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c9030785b38cf7fb9137560609d60c0c
+    Hash: ca8a3089c90df557dd7430c01470819d
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 70f56a4a3cfe86a740d6ac0931c17f3a
+    Hash: 35391cae8a5290c04ea8164451c29113
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -27,18 +27,49 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 64
   Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: d27fca208721c7b4a95de61221d970bf, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4c7eb284273286946aa09ba0787a5168, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7cf41285c9a8c4f4b9402fa3af7ccb34, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0697417d0b4243b48a036bfb10342726, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5c2d328d259791744bb8539650a9c619, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 910a3fad063ead543bc990492531ae37, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1427db0e1d26e0b41ad8a527d6b2bd5a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 61b00a8e76a237e429174e8bc253901f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7cec3d1f878119a41a4056a0bc678157, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
 - Class: 198
   Script: {instanceID: 0}
 - Class: 199
   Script: {instanceID: 0}
-- Class: 213
-  Script: {instanceID: 0}
 Assets:
+- Assets/AstroneerAssetBundles/Import/GeyserPP01.prefab
+- Assets/AstroneerAssetBundles/GateStation.prefab
+- Assets/AstroneerAssetBundles/Import/Hoverboard.prefab
+- Assets/AstroneerAssetBundles/Import/Geyser02a.prefab
+- Assets/AstroneerAssetBundles/Import/ShellCalidor.prefab
+- Assets/AstroneerAssetBundles/Import/CloudsRadiatedSimple.prefab
+- Assets/AstroneerAssetBundles/Import/CloudsAridSimple.prefab
+- Assets/AstroneerAssetBundles/Import/ShellGlacio.prefab
+- Assets/AstroneerAssetBundles/Import/CloudsExoticSimple.prefab
+- Assets/AstroneerAssetBundles/Import/CloudsTerranSimple.prefab
+- Assets/AstroneerAssetBundles/Import/CloudsTundraSimple.prefab
+- Assets/AstroneerAssetBundles/Import/ShellVesania.prefab
+- Assets/AstroneerAssetBundles/Import/ShellNovus.prefab
 - Assets/AstroneerAssetBundles/AstroneerShuttle.prefab
-- Assets/AstroneerAssetBundles/GatwayPortal.prefab
-- Assets/AstroneerAssetBundles/GatwayPortal.fbx
-- Assets/AstroneerAssetBundles/GatewayMat.mat
-- Assets/AstroneerAssetBundles/AstroneerShuttle.fbx
 - Assets/AstroneerAssetBundles/AstroneerShuttleWithParticles.prefab
-- Assets/AstroneerAssetBundles/images.jpg
+- Assets/AstroneerAssetBundles/Import/ShellDesolo.prefab
+- Assets/AstroneerAssetBundles/Import/ShellAtrox.prefab
+- Assets/AstroneerAssetBundles/Import/ShellSylva.prefab
 Dependencies: []

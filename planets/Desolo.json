@@ -26,14 +26,13 @@
 	{
 		"signals" : 
 		[
-			{ 
-                "frequency" : "WarpCore", 
-                "name": "Desolo Gateway Engine", 
-                "audioClip" : "OW_NM_WhiteHoleAmbienceL", 
-                "sourceRadius" : 80, 
-                "identificationRadius" : 140, 
-                "position" : {"x" : 0, "y" : 0, "z" : 0}
-            }		
+			{
+                "frequency" : "WarpCore",
+                "name": "GATEWAY_ENGINE_DESOLO",
+                "audioFilePath" : "planets/Assets/CoreDesolo.mp3",
+                "sourceRadius" : 80,
+                "identificationRadius" : 155
+            }
         ]
 	},
 	"HeightMap" :
@@ -50,6 +49,16 @@
 		"fogTint" : {"r" : 189, "g" : 189, "b" : 189, "a" : 255},
 		"fogDensity" : 0.15
 	},
+    "Props": {
+        "scatter": [
+            {
+                "assetBundle" : "planets/astroneer",
+                "path": "Assets/AstroneerAssetBundles/Import/ShellDesolo.prefab",
+                "count": 50,
+                "seed": 337656
+            }
+        ]
+    },
     "ShipLog": {
         "mapMode": {
             "revealedSprite": "planets/Assets/ShipLog/barren.png"

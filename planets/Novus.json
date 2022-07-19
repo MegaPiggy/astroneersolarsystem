@@ -26,14 +26,13 @@
 	{
 		"signals" : 
 		[
-			{ 
-                "frequency" : "WarpCore", 
-                "name": "Novus Gateway Engine", 
-                "audioClip" : "OW_NM_WhiteHoleAmbienceL", 
-                "sourceRadius" : 80, 
-                "identificationRadius" : 140, 
-                "position" : {"x" : 0, "y" : 0, "z" : 0}
-            }		
+			{
+                "frequency" : "WarpCore",
+                "name": "GATEWAY_ENGINE_NOVUS",
+                "audioFilePath" : "planets/Assets/CoreNovus.mp3",
+                "sourceRadius" : 80,
+                "identificationRadius" : 165
+            }
         ]
 	},
 	"HeightMap" :
@@ -52,6 +51,16 @@
 		"fogTint" : {"r" : 184, "g" : 84, "b" : 255, "a" : 255},
 		"fogDensity" : 0.4
 	},
+    "Props": {
+        "scatter": [
+            {
+                "assetBundle" : "planets/astroneer",
+                "path": "Assets/AstroneerAssetBundles/Import/ShellNovus.prefab",
+                "count": 50,
+                "seed": 66887
+            }
+        ]
+    },
     "ShipLog": {
         "mapMode": {
             "revealedSprite": "planets/Assets/ShipLog/exotic_moon.png"
