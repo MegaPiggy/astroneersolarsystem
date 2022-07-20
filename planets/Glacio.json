@@ -31,7 +31,8 @@
                 "name": "GATEWAY_ENGINE_GLACIO",
                 "audioFilePath" : "planets/Assets/CoreGlacio.mp3",
                 "sourceRadius" : 100,
-                "identificationRadius" : 280
+                "identificationRadius" : 280,
+                "detectionRadius" : 300
             }
         ]
 	},

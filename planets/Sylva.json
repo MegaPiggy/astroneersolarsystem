@@ -31,7 +31,8 @@
                 "name": "GATEWAY_ENGINE_SYLVA",
                 "audioFilePath" : "planets/Assets/CoreSylva.mp3",
                 "sourceRadius" : 100,
-                "identificationRadius" : 270
+                "identificationRadius" : 270,
+                "detectionRadius" : 310
             }
         ]
 	},

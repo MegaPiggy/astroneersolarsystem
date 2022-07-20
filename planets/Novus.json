@@ -31,7 +31,8 @@
                 "name": "GATEWAY_ENGINE_NOVUS",
                 "audioFilePath" : "planets/Assets/CoreNovus.mp3",
                 "sourceRadius" : 80,
-                "identificationRadius" : 165
+                "identificationRadius" : 165,
+                "detectionRadius" : 175
             }
         ]
 	},

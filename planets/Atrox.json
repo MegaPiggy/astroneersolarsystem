@@ -31,7 +31,8 @@
                 "name": "GATEWAY_ENGINE_ATROX",
                 "audioFilePath" : "planets/Assets/CoreAtrox.mp3",
                 "sourceRadius" : 100,
-                "identificationRadius" : 280
+                "identificationRadius" : 280,
+                "detectionRadius" : 340
             }
         ]
 	},

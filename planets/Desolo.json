@@ -31,7 +31,8 @@
                 "name": "GATEWAY_ENGINE_DESOLO",
                 "audioFilePath" : "planets/Assets/CoreDesolo.mp3",
                 "sourceRadius" : 80,
-                "identificationRadius" : 155
+                "identificationRadius" : 155,
+                "detectionRadius" : 160
             }
         ]
 	},
@@ -44,8 +45,8 @@
 	},
 	"Atmosphere" :
 	{
-		"size" : 150,
-		"fogSize" : 150,
+		"size" : 160,
+		"fogSize" : 160,
 		"fogTint" : {"r" : 189, "g" : 189, "b" : 189, "a" : 255},
 		"fogDensity" : 0.15
 	},

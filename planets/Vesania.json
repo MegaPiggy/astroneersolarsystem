@@ -31,7 +31,8 @@
                 "name": "GATEWAY_ENGINE_VESANIA",
                 "audioFilePath" : "planets/Assets/CoreVesania.mp3",
                 "sourceRadius" : 100,
-                "identificationRadius" : 274
+                "identificationRadius" : 274,
+                "detectionRadius" : 315
             }
         ]
 	},

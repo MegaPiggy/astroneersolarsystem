@@ -56,7 +56,8 @@
                 "name": "SMALL_SHUTTLE",
                 "audioClip" : "OW_PR_ProbeInAirSound",
                 "sourceRadius" : 20,
-                "identificationRadius" : 35
+                "identificationRadius" : 35,
+                "detectionRadius" : 50
             }
         ]
 	},

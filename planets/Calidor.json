@@ -31,7 +31,8 @@
                 "name": "GATEWAY_ENGINE_CALIDOR",
                 "audioFilePath" : "planets/Assets/CoreCalidor.mp3",
                 "sourceRadius" : 100,
-                "identificationRadius" : 355
+                "identificationRadius" : 355,
+                "detectionRadius" : 365
             }
         ]
 	},
@@ -44,10 +45,10 @@
 	},
 	"Atmosphere" :
 	{
-		"size" : 360,
+		"size" : 365,
 		"useAtmosphereShader": true,
 		"atmosphereTint" : {"r" : 255, "g" : 227, "b" : 166, "a" : 255},
-		"fogSize" : 360,
+		"fogSize" : 365,
 		"fogTint" : {"r" : 255, "g" : 227, "b" : 166, "a" : 255},
 		"fogDensity" : 0.7
 	},

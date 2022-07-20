@@ -53,7 +53,8 @@
                 "name": "GATEWAY_PORTAL",
                 "audioFilePath" : "planets/Assets/UnidentifiedSatellite.mp3",
                 "sourceRadius" : 10,
-                "identificationRadius" : 300
+                "identificationRadius" : 300,
+                "detectionRadius" : 300
             }
         ]
 	},
