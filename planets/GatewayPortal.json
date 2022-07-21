@@ -8,7 +8,7 @@
 		"soiOverride": 300,
 		"showMinimap": false,
 		"invulnerableToSun": true,
-		"hasMapMarker": false
+		"hasMapMarker": true
 	},
 	"Orbit": {
 		"isStatic": true,
@@ -22,7 +22,6 @@
 		"dottedOrbitLine": true
 	},
 	"ReferenceFrame": {
-		"hideInMap": true,
 		"bracketRadius": 300,
 		"targetColliderRadius": 300
 	},
