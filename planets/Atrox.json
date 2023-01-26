@@ -57,7 +57,8 @@
             {
                 "assetBundle" : "planets/astroneer",
                 "path" : "Assets/AstroneerAssetBundles/Import/CloudsRadiatedSimple.prefab",
-                "scale": 0.2375
+                "scale": 0.2375,
+                "keepLoaded": true
             }
         ],
         "scatter": [

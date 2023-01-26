@@ -32,7 +32,8 @@
             {
 				"rename": "GateStation",
 				"assetBundle" : "planets/astroneer",
-			 	"path" : "Assets/AstroneerAssetBundles/GateStation.prefab"
+			 	"path" : "Assets/AstroneerAssetBundles/GateStation.prefab",
+				"keepLoaded": true
 			}
         ],
 		"audioVolumes": [

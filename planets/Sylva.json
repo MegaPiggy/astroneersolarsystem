@@ -63,7 +63,8 @@
             {
                 "assetBundle" : "planets/astroneer",
                 "path" : "Assets/AstroneerAssetBundles/Import/CloudsTerranSimple.prefab",
-                "scale": 0.225
+                "scale": 0.225,
+                "keepLoaded": true
             }
         ],
         "scatter": [

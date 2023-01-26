@@ -58,7 +58,8 @@
             {
                 "assetBundle" : "planets/astroneer",
                 "path" : "Assets/AstroneerAssetBundles/Import/CloudsTundraSimple.prefab",
-                "scale": 0.22
+                "scale": 0.22,
+                "keepLoaded": true
             }
         ],
         "scatter": [
